@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kenia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Distressed&family=Zen+Dots&display=swap'); 
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+body { 
+	background-color: #16A69F; 
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+header {
+	color: #E8E0D1;
+	min-height: 150px;
+	padding-top: 40px;
+	background-image: linear-gradient(to bottom, #16A69F, #0D6662, #0A4D49);
+}
+ 
+header > h1 {
+	font-family: 'Zen Dots', cursive;
+	margin-bottom: 20px;
+	font-size: 2.4em;
+
+}
+
+header > p {
+	font-size: 1.2em;
+	text-align: justify;
+
+
+}
+
+nav { 
+	background-color: #0A4D49;
+	padding: 12px;
+	padding-left: 0px;
+	
+}
+
+nav > a {
+	color: #FFFDF7;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+nav > a:hover {
+	background-color: #16A69F;
+	color: #0A4D49;
+	border-radius: 15px;
+
+}
+
+main {
+	background-color: #FFFDF7;
+	min-width: 280px;
+	max-width: 1000px;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0px 0px 10px black;
+	margin-bottom: 30px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+main img {
+	width: 100%;
+
+}
+
+main img.pequena {
+	max-width: 350px;
+	display: block;
+	margin: auto;
+
+}
+
+main h1 {
+	color: #0A4D49;
+	font-family: 'Kenia', cursive;
+
+}
+
+main h2 {
+	font-size: 1.4em;
+        color: #0D6662;
+	font-family: 'Kenia', cursive;
+	text-indent: 8px;
+
+
+}
+
+main p {
+        margin: 15px 0px;
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 1em;
+	line-height: 2em;
+
+}
+
+main strong {
+	color: #0A4D49;
+	font-weight: bold;
+
+}
+
+main a {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #16A69F;
+	color: #0A4D49;
+	padding: 2px 6px;
+
+}
+
+main a:hover {
+	text-decoration: underline;
+
+
+
+
+}
+               
+iframe {
+	width: 100%;
+	
+}
+
+aside {
+	background-color: #16A69F;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+aside > h3 {
+	background-color: #0D6662;
+	color: #FFFDF7;
+	padding 15px;
+	margin: -10px -10px 0px -10px;
+	border-radius: 10px 10px 0px 0px;
+
+
+}
+
+aside > ul {
+	list-style-type: '\2714\00A0\00A0';
+	list-style-position: inside;
+
+}
+
+footer {                
+	background-color: black;
+	text-align: center;                    
+	padding: 5px;
+	color: #16A69F;
+	font-size: 0.9em; 
+}
+
+footer a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #16A69F; 
+
+}
